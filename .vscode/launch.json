@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Production",
+            "environmentName": "Production",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "authentication": "AAD",
+            "server": "https://businesscentral.dynamics.com/8290be70-34ad-461a-b4e2-032b5cabdaa5/HOCAP",
+            "serverInstance": "HOCAP"
+        }
+    ]
+}
